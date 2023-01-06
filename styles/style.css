@@ -121,9 +121,48 @@ footer{
     background-color: black;
     color: white;
     display: flex;
-    align-items: center;
+    padding-top: 110px;
     justify-content: space-around;
 }
 .future{
     max-width: 380px;
+}
+.future>h2{
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.future>p{
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.future>img{
+    height: 40px;
+    margin-right: 10px;
+}
+.subscribe>h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.subscribe>input{
+    height: 55px;
+    width: 265px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+::placeholder{
+    color: white;
+}
+.subscribe-btn{
+    font-size: 16px;
+    background-color: #005fac;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 500;
 }
