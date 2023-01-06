@@ -44,7 +44,7 @@
 .btn-primary:hover{
     background-color: #6c63ff;
     color: white;
-    border-color: white;
+    border-color: transparent;
     transition: 0.5s;
     transition-delay: 0.1s;
 }
